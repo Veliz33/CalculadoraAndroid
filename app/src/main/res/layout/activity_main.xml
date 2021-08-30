@@ -42,7 +42,7 @@
         android:layout_marginTop="27dp"
         android:text="@string/btn_cuatro"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_siete" />
 
     <Button
         android:id="@+id/btn_cinco"
@@ -69,7 +69,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_cinco" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btn_siete"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="32dp"
@@ -112,13 +112,14 @@
         android:id="@+id/btn_cero"
         android:layout_width="70"
         android:layout_height="70"
-        android:layout_marginStart="21dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="27dp"
         android:layout_marginBottom="150dp"
         android:text="@string/btn_cero"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_punto"
-        app:layout_constraintTop_toBottomOf="@+id/btn_dos" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_dos"
+        app:layout_constraintVertical_bias="0.625" />
 
     <Button
         android:id="@+id/btn_multiplicar"
@@ -161,7 +162,7 @@
         android:layout_marginEnd="21dp"
         android:text="@string/btn_ocho"
         app:layout_constraintEnd_toStartOf="@+id/btn_nueve"
-        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintStart_toEndOf="@+id/btn_siete"
         app:layout_constraintTop_toBottomOf="@+id/btn_borrar" />
 
     <Button
@@ -180,7 +181,7 @@
         android:layout_height="70"
         android:layout_marginTop="27dp"
         android:layout_marginEnd="31dp"
-        android:text="/"
+        android:text="@string/btn_dividir"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_multiplicar" />
 

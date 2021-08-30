@@ -18,4 +18,5 @@
     <string name="btn_dividir">*</string>
     <string name="btn_multiplicar">/</string>
     <string name="btn_igual">=</string>
+    <string name="txt_display">0</string>
 </resources>
